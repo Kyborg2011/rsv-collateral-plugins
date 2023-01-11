@@ -1,5 +1,6 @@
 node_modules
 .env
+.mainnet_fork_details
 coverage
 coverage.json
 typechain
@@ -8,4 +9,30 @@ typechain-types
 #Hardhat files
 cache
 artifacts
+build
+crytic-export/
+design-docs
+echidna-corpus/
+flatten/
+reports
+scripts/addresses/31337*
+
+.openzeppelin
+.vscode/
+/local/
+
+.yarn/*
+!.yarn/patches
+!.yarn/plugins
+!.yarn/releases
+!.yarn/sdks
+!.yarn/versions
+
+\#*\#
+.\#*
+
+*.orig
+
+.idea
+
 
